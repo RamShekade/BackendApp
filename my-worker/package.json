@@ -4,8 +4,7 @@
     "description": "A women safety app backend",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js",
-        "deploy": "wrangler publish"
+        "start": "node server.js"
     },
     "dependencies": {
         "bcrypt": "^5.1.1",
@@ -22,5 +21,8 @@
     },
     "author": "",
     "license": "MIT",
-    "keywords": []
+    "keywords": [],
+    "devDependencies": {
+        "wrangler": "^4.13.2"
+    }
 }
